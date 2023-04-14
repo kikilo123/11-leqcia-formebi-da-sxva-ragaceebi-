@@ -1,0 +1,33 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.input > input {
+    width: 500px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-bottom:2px solid darkblue ;
+    outline: none;
+    background-color: maroon;
+    caret-color: red;
+    color: white;
+}
+.checkbox {
+    margin-bottom: 35px;
+}
+.but >  button {
+width: 200px;
+height: 40px;
+border: none;
+border-radius: 10px;
+}
+.but > button.pirveli {
+    background-color: rgb(70, 132, 224);
+    color: white;
+}
+.but > button.meore {
+    background-color: rgb(115, 124, 121);
+
+}
